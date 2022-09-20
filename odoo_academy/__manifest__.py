@@ -25,6 +25,7 @@
         
         
     ],
+    'license': 'OPL-1',
     
     'demo': [
       
