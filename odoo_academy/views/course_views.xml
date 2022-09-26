@@ -51,5 +51,17 @@
                 </search>
             </field>
         </record>
+        
+        <record model="ir.ui.view" id="course_view_graph">
+            <field name="name">academy.course.graph</field>
+            <field name="model">academy.course</field>
+            <field name="arch" type="xml">
+                <graph string="Graph List">
+                    <field name="name"/>
+                    <field name="base_price" type="measure"/>
+                </graph>
+            </field>
+        </record>
+        
     </data>
 </odoo>
